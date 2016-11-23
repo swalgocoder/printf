@@ -26,12 +26,7 @@ int my_percentage(int per)
 	return (1);
 }
 
-/**
- * _abs - absolute value of an integer
- * @i: interger to computer
- *
- * Return: absolute value;
- */
+
 /**
  * itoa - integer to string
  * @n: integer
