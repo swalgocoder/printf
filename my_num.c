@@ -57,7 +57,7 @@ int itoa(int n, char s[])
 
 int my_number(int n)
 {
-char buffer[1024];
+char buffer[100];
 
 return(itoa(n, buffer));
 }
