@@ -27,7 +27,7 @@ int my_str(va_list ptr_args)
 /**
  *my_char - prints out a character
  *@ptr_args: ptr to args
- *Return: 0
+ *Return: 1
  */
 int my_char(va_list ptr_args)
 {
@@ -40,7 +40,7 @@ int my_char(va_list ptr_args)
 /**
  *my_int - prints out the integer
  *@ptr_args: ptr arguments
- *Return: The char
+ *Return: number of The char
  */
 int my_int(va_list ptr_args)
 {
@@ -52,7 +52,7 @@ int my_int(va_list ptr_args)
 }
 /**
  *_printf - home made printf function
- *@format: format the arguments comes
+ *@format: format of the arguments
  *Return: The number of char printed
  */
 int _printf(const char *format, ...)
