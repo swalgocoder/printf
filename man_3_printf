@@ -1,0 +1,17 @@
+.TH man 1 "22 Nov 2016" "0.1" "_printf man page"
+.SH NAME
+.B _printf -
+like printf but much worse.
+.SH SYNOPSIS
+int _printf(const char *format,...);
+.SH DESCRIPTION
+Recreation of the printf function as a project for Holberton School.
+.SH OPTIONS
+.B n/a however formatting descriptions are coming soon:
+.br
+.SH SEE ALSO
+.I printf, vfprintf.
+.SH BUGS
+Many bugs, please see list:
+.SH AUTHOR
+Gary Gao, and Stuart Fosse
