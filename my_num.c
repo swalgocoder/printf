@@ -3,7 +3,7 @@
 /**
  *my_puts_str - str followed by a new line
  *@str: string
- *
+ *Return: void
  */
 void my_puts_str(char *str)
 {
@@ -17,7 +17,7 @@ void my_puts_str(char *str)
 /**
  *my_percentage - % as an input
  *@per: A %
- *Return: the % char
+ *Return: 1
  */
 int my_percentage(int per)
 {
