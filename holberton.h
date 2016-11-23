@@ -11,7 +11,7 @@
 typedef struct data_type
 {
 	char *check_char;
-	int *(*f)();
+	int (*f)();
 } my_type;
 
 int my_format(va_list ptr_args, my_type data_type[], char format);
